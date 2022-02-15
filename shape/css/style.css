@@ -1,0 +1,47 @@
+.squre{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid red;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+.triangle2{
+    width: 0;
+    height: 0;
+    border-top: 200px solid yellow;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+.squre2{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    border-radius: 50%;
+}
+.rectriangle{
+    width: 350px;
+    height: 200px;
+    background-color: green;
+    overflow: hidden;
+    position: relative;
+   
+}
+.red{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
